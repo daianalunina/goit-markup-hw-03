@@ -217,7 +217,7 @@ body {
     justify-content: space-between;
 }
 
-.features.list {
+.features-container.list {
     list-style: none
 }
 
@@ -254,7 +254,7 @@ body {
     color: var(--primary-text-color)
 }
 
-.work.list {
+.activity-container.list {
     list-style: none;
 }
 
@@ -284,7 +284,7 @@ body {
 }
 
 
-.team.list {
+.team-container.list {
     list-style: none;
 }
 
@@ -370,7 +370,7 @@ body {
     margin-bottom: 72px;
 }
 
-.button.list {
+.button-container.list {
     list-style: none;
 }
 
@@ -391,7 +391,7 @@ body {
     background-color: var(--hover-color);
 }
 
-.portfolio-example.list {
+.portfolio-set.list {
     list-style: none;
 }
 
