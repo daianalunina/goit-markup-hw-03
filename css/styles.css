@@ -34,6 +34,20 @@ img {
 button {
     cursor: pointer;
 }
+/* hidenn the elements */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 
 /* used colors */
 :root {
@@ -109,13 +123,14 @@ align-items: center;
 .list {
     list-style: none;
 }
-
+.site-nav.list {
+    padding: 24px 0px;
+}
 .site-nav {
     display: flex;
     gap: 40px;
     align-items: center;
     margin-right: auto;
-    padding: 24px 0px;
 }
 .site-nav:last-child{
     margin-right: 0;}
@@ -130,6 +145,7 @@ align-items: center;
 
 .menu.link {
     text-decoration: none;
+    
 }
 
 .menu.link:hover,
@@ -162,9 +178,6 @@ align-items: center;
     letter-spacing: 0.02em;
 }
 
-.email-contact {
-    margin-right: 40px;
-}
 
 .communication.link {
     text-decoration: none;
@@ -335,9 +348,6 @@ align-items: center;
 
 
 /* Footer */
-.footer-container {
-    display: block;
-}
 
 .footer {
     background-color: var(--primary-text-color);
