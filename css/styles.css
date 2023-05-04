@@ -123,9 +123,7 @@ align-items: center;
 .list {
     list-style: none;
 }
-.site-nav.list {
-    padding: 24px 0px;
-}
+
 .site-nav {
     display: flex;
     gap: 40px;
@@ -142,7 +140,10 @@ align-items: center;
     color: var(--primary-text-color);
     letter-spacing: 0.02em
 }
+.menu-item{
+    padding: 24px 0px;
 
+}
 .menu.link {
     text-decoration: none;
     
@@ -267,6 +268,9 @@ align-items: center;
 }
 
 /* What we are doing section */
+.nopadd-section {
+    padding-bottom: 120px;
+}
 .activity-container {
     display: flex;
     justify-content: space-between;
@@ -385,8 +389,10 @@ align-items: center;
 
 /* PORTFOLIO part */
 
-.portfolio-container {
-    padding: 96px 0 120px 0;
+.portfolio-section {
+    padding-top: 96px;
+    padding-bottom: 120px;
+
 }
 
 .portfolio-set {
